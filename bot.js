@@ -12,7 +12,8 @@ async function main() {
   try {
     await web.chat.postMessage({
       channel: "#general",
-      text: `The current time is ${new Date().toTimeString()}`,
+      type: "mrkdwn",
+      text: `The current time is ${new Date().toTimeString()} <http://github.com/rpappalax|rpappalax on GitHub>`,
     });
     console.log("Message posted!");
   } catch (error) {
