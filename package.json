@@ -1,0 +1,26 @@
+{
+  "name": "rpapabot-slack",
+  "description": "Building a basic Slack bot for fun and profit",
+  "version": "1.0.0",
+  "author": "Peter deHaan <peter@deseloper.com> (https://about.me/peterdehaan)",
+  "bugs": {
+    "url": "https://github.com/pdehaan/rpapabot-slack/issues"
+  },
+  "dependencies": {
+    "@slack/web-api": "^5.8.1",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "homepage": "https://github.com/pdehaan/rpapabot-slack#readme",
+  "keywords": ["slack", "slackbot"],
+  "license": "MPL-2.0",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdehaan/rpapabot-slack.git"
+  },
+  "scripts": {
+    "start": "node bot",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
